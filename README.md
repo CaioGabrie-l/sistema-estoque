@@ -1,46 +1,69 @@
-# 📦 Sistema de Controle de Estoque
+# Sistema de Controle de Estoque
 
-Sistema de controle de estoque desenvolvido em **Python**, com o objetivo de praticar lógica de programação, estruturas de dados, validação de entradas, manipulação de arquivos e organização de código.
+Projeto desenvolvido em Python como parte dos meus estudos em Análise e Desenvolvimento de Sistemas.
 
-O sistema permite cadastrar e gerenciar produtos, controlar entradas e saídas de estoque, consultar informações e gerar relatórios.
+A ideia foi criar um sistema simples de controle de estoque para praticar programação na prática, desde a lógica básica até a organização de dados e persistência em arquivos.
 
-## 🚀 Funcionalidades
+## Sobre o projeto
 
-- ✅ Cadastro de produtos
-- ✅ Cadastro de vários produtos
-- ✅ Listagem de produtos
-- ✅ Busca de produtos por nome
-- ✅ Busca sem diferenciação entre letras maiúsculas e minúsculas
-- ✅ Alteração de produtos
-- ✅ Remoção de produtos
-- ✅ Entrada de estoque
-- ✅ Saída de estoque
-- ✅ Validação de dados
-- ✅ Prevenção de produtos duplicados
-- ✅ Controle de estoque insuficiente
-- ✅ Histórico de movimentações
-- ✅ Relatórios do estoque
-- ✅ Identificação de produtos com estoque baixo
-- ✅ Identificação de produtos sem estoque
-- ✅ Cálculo do valor total do estoque
-- ✅ Salvamento automático dos dados em arquivos JSON
+O sistema funciona pelo terminal e permite cadastrar e gerenciar produtos, controlar entradas e saídas do estoque e consultar algumas informações através de relatórios.
 
-## 🛠️ Tecnologias utilizadas
+Durante o desenvolvimento, fui adicionando novas funcionalidades conforme aprendia novos conceitos de Python.
 
-- **Python 3**
-- **JSON**
-- **Git**
-- **GitHub**
+## Funcionalidades
 
-### Bibliotecas utilizadas
+- Cadastro de produtos
+- Cadastro de vários produtos
+- Listagem de produtos
+- Busca por nome
+- Alteração de produtos por ID ou nome
+- Remoção de produtos por ID ou nome
+- Entrada de estoque
+- Saída de estoque
+- Validação de dados
+- Verificação de estoque insuficiente
+- Prevenção de produtos duplicados
+- Histórico de movimentações
+- Relatórios do estoque
+- Identificação de produtos com estoque baixo
+- Identificação de produtos sem estoque
+- Cálculo do valor total do estoque
+- Salvamento automático dos dados
+
+## Tecnologias utilizadas
+
+- Python
+- JSON
+- Git
+- GitHub
+
+Também utilizei algumas bibliotecas que já fazem parte do Python, como:
 
 - `json`
 - `os`
 - `datetime`
 
-Todas fazem parte da biblioteca padrão do Python.
+## Como executar
 
-## 📂 Estrutura do projeto
+Clone o repositório:
+
+```bash
+git clone https://github.com/CaioGabrie-l/sistema-estoque.git
+```
+
+Entre na pasta:
+
+```bash
+cd sistema-estoque
+```
+
+Execute o programa:
+
+```bash
+python main.py
+```
+
+## Estrutura do projeto
 
 ```text
 sistema-estoque/
@@ -53,110 +76,55 @@ sistema-estoque/
 └── .venv/
 ```
 
-> A pasta `.venv/` é utilizada apenas no ambiente local e não deve ser enviada para o GitHub.
+A pasta `.venv` é utilizada apenas no ambiente local e não é enviada para o GitHub.
 
-## ▶️ Como executar
+## Salvamento dos dados
 
-### 1. Clonar o repositório
+Os produtos cadastrados são armazenados no arquivo `produtos.json`.
 
-```bash
-git clone URL_DO_REPOSITORIO
-```
+O histórico de entradas, saídas e cadastros fica no arquivo `historico.json`.
 
-### 2. Entrar na pasta
+Dessa forma, os dados continuam disponíveis mesmo depois de fechar o programa.
 
-```bash
-cd sistema-estoque
-```
+## O que pratiquei neste projeto
 
-### 3. Executar o sistema
+Esse foi um dos meus primeiros projetos maiores em Python e serviu para colocar em prática conceitos que estou estudando.
 
-```bash
-python main.py
-```
+Entre eles:
 
-## 💻 Menu principal
+- Variáveis e tipos de dados
+- Condicionais
+- Laços de repetição
+- Listas
+- Dicionários
+- Funções
+- Tratamento de erros
+- Validação de entradas
+- Manipulação de arquivos
+- JSON
+- Organização de código
+- Git e GitHub
 
-```text
-=============================================
-          SISTEMA DE ESTOQUE
-=============================================
-1 - Cadastro de produtos
-2 - Listar produtos
-3 - Buscar produto
-4 - Alterar produto
-5 - Remover produto
-6 - Entrada de estoque
-7 - Saída de estoque
-8 - Relatórios
-9 - Histórico
-0 - Sair
-=============================================
-```
+## Próximos passos
 
-## 💾 Armazenamento
+Algumas coisas que pretendo estudar e utilizar em projetos futuros:
 
-Os produtos são armazenados no arquivo:
+- Banco de dados
+- SQL
+- SQLite
+- Testes automatizados
+- APIs
+- FastAPI
+- Interfaces web
 
-```text
-produtos.json
-```
+Essas funcionalidades não fazem parte da versão atual do projeto.
 
-O histórico das movimentações é armazenado em:
+## Objetivo
 
-```text
-historico.json
-```
+O principal objetivo deste projeto foi aprender Python desenvolvendo algo do início ao fim, e começar a montar meu portfólio enquanto avanço nos estudos de Análise e Desenvolvimento de Sistemas.
 
-Dessa forma, os dados continuam disponíveis mesmo depois que o programa é encerrado.
-
-## 📊 Relatórios
-
-O sistema apresenta informações como:
-
-- quantidade total de produtos;
-- quantidade total de itens em estoque;
-- valor total do estoque;
-- produto mais caro;
-- produto com maior quantidade em estoque;
-- produtos com estoque baixo;
-- produtos sem estoque.
-
-## 🎯 Objetivo do projeto
-
-Este projeto foi desenvolvido como parte do meu aprendizado em **desenvolvimento de software com Python**, com foco em transformar conceitos básicos de programação em uma aplicação funcional.
-
-Durante o desenvolvimento foram utilizados conceitos como:
-
-- variáveis;
-- condicionais;
-- estruturas de repetição;
-- listas;
-- dicionários;
-- funções;
-- tratamento de exceções;
-- manipulação de arquivos;
-- JSON;
-- organização de código;
-- validação de dados.
-
-## 🔮 Possíveis melhorias futuras
-
-O projeto poderá futuramente receber novas versões com:
-
-- banco de dados SQLite;
-- SQL;
-- testes automatizados;
-- API REST;
-- FastAPI;
-- autenticação de usuários;
-- interface gráfica ou web;
-- dashboards e gráficos.
-
-Essas funcionalidades não fazem parte da versão atual.
-
-## 👨‍💻 Autor
+## Autor
 
 **Caio Gabriel**
 
-Projeto desenvolvido para estudos e composição de portfólio em desenvolvimento de software.
+Estudante de Análise e Desenvolvimento de Sistemas.
