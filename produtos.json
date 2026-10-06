@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "Arroz",
+        "preco": 25.9,
+        "quantidade": 10
+    },
+    {
+        "id": 2,
+        "nome": "Feijão",
+        "preco": 10.0,
+        "quantidade": 25
+    },
+    {
+        "id": 4,
+        "nome": "Feijão preto",
+        "preco": 15.0,
+        "quantidade": 60
+    },
+    {
+        "id": 5,
+        "nome": "Linguiça",
+        "preco": 35.0,
+        "quantidade": 70
+    },
+    {
+        "id": 6,
+        "nome": "Batata",
+        "preco": 2.0,
+        "quantidade": 80
+    }
+]

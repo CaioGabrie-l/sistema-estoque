@@ -1,0 +1,50 @@
+[
+    {
+        "data": "06/10/2026 12:06:03",
+        "produto_id": 1,
+        "produto": "Arroz",
+        "tipo": "CADASTRO",
+        "quantidade": 10,
+        "estoque_atual": 10
+    },
+    {
+        "data": "06/10/2026 12:06:17",
+        "produto_id": 2,
+        "produto": "Feijão",
+        "tipo": "CADASTRO",
+        "quantidade": 25,
+        "estoque_atual": 25
+    },
+    {
+        "data": "06/10/2026 12:06:38",
+        "produto_id": 3,
+        "produto": "Farinha",
+        "tipo": "CADASTRO",
+        "quantidade": 15,
+        "estoque_atual": 15
+    },
+    {
+        "data": "06/10/2026 12:11:24",
+        "produto_id": 4,
+        "produto": "Feijão preto",
+        "tipo": "CADASTRO",
+        "quantidade": 60,
+        "estoque_atual": 60
+    },
+    {
+        "data": "06/10/2026 12:11:37",
+        "produto_id": 5,
+        "produto": "Linguiça",
+        "tipo": "CADASTRO",
+        "quantidade": 70,
+        "estoque_atual": 70
+    },
+    {
+        "data": "06/10/2026 12:20:58",
+        "produto_id": 6,
+        "produto": "Batata",
+        "tipo": "CADASTRO",
+        "quantidade": 80,
+        "estoque_atual": 80
+    }
+]
